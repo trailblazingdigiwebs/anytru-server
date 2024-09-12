@@ -1,0 +1,58 @@
+{
+	"name": "api",
+	"version": "1.0.0",
+	"description": "This is AnyTru rest api",
+	"main": "server.js",
+	"scripts": {
+		"swagger": "node swagger.js",
+		"dev": "nodemon server.js",
+		"start": "node server.js"
+	},
+	"keywords": [
+		"Node",
+		"express",
+		"mongodb",
+		"mongoose"
+	],
+	"author": "Shubham Kumar Maddheshiya <kr.shubhamgupta1999@gmail.com>",
+	"license": "ISC",
+	"dependencies": {
+		"aws-sdk": "^2.1618.0",
+		"bcryptjs": "^2.4.3",
+		"cookie-parser": "^1.4.6",
+		"cors": "^2.8.5",
+		"crypto": "^1.0.1",
+		"dotenv": "^16.4.5",
+		"express": "^4.19.2",
+		"express-mongo-sanitize": "^2.2.0",
+		"global": "^4.4.0",
+		"helmet": "^7.1.0",
+		"http-errors": "^2.0.0",
+		"jsonwebtoken": "^9.0.2",
+		"mailchimp-api-v3": "^1.15.0",
+		"mailgun": "^0.5.0",
+		"mailgun-js": "^0.22.0",
+		"mailgun.js": "^10.2.1",
+		"mongodb": "^6.6.2",
+		"mongoose": "^8.3.3",
+		"mongoose-slug-generator": "^1.0.4",
+		"mongoose-slug-updater": "^3.3.0",
+		"morgan": "^1.10.0",
+		"multer": "^1.4.5-lts.1",
+		"nodemon": "^3.1.0",
+		"passport": "^0.7.0",
+		"passport-facebook": "^3.0.0",
+		"passport-google-oauth2": "^0.2.0",
+		"passport-jwt": "^4.0.1",
+		"razorpay": "^2.9.4",
+		"swagger-ui-express": "^5.0.0",
+		"uuid": "^9.0.1",
+		"xss-clean": "^0.1.4"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.1.1",
+		"eslint": "^9.1.1",
+		"globals": "^15.1.0",
+		"swagger-autogen": "^2.23.7"
+	}
+}
