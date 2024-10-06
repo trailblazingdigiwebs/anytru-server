@@ -45,6 +45,7 @@
 		"passport-google-oauth2": "^0.2.0",
 		"passport-jwt": "^4.0.1",
 		"razorpay": "^2.9.4",
+		"socket.io": "^4.7.5",
 		"swagger-ui-express": "^5.0.0",
 		"uuid": "^9.0.1",
 		"xss-clean": "^0.1.4"
